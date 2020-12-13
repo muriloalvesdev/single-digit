@@ -1,0 +1,6 @@
+codecov:
+  token: "f40999a3-398e-434b-99c7-501282d2f1af"
+  
+  ignore:
+  - "src/main/java/br/com/single/config"
+  - "src/main/java/br/com/single/exception"
