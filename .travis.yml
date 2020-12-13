@@ -1,0 +1,21 @@
+dist: trusty
+
+language: java
+
+jdk:
+  - oraclejdk13
+
+services:
+  - rabbitmq
+  - h2database
+
+env:
+ global:
+   - CODECOV_TOKEN="f40999a3-398e-434b-99c7-501282d2f1af"
+
+script:
+  - chmod +x .ci/script.sh
+  - ./.ci/script.sh
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
