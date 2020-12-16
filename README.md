@@ -29,3 +29,6 @@
  - Execute o script `$ ./docker-run.sh`
  - O script vai gerar uma imagem do projeto e criar um container do projeto.
  - Para testar se o projeto está ativo, veja a documentação das APIs do projeto [clicando aqui](http://localhost:8081/swagger-ui.html)
+ 
+## Heroku
+- Projeto hospedado no Heroku. URL: `https://single-digit.herokuapp.com/swagger-ui.html`
